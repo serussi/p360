@@ -7,6 +7,7 @@ const FileService = require('./lib/file-service')
 const MyCasesService = require('./lib/mycases-service')
 const ProjectService = require('./lib/project-service')
 const UserService = require('./lib/user-service')
+const SupportService = require('./lib/support-service')
 
 module.exports = options => {
   if (!options) throw TypeError('Missing required input: options')
@@ -22,6 +23,7 @@ module.exports = options => {
     FileService: FileService(options),
     MyCasesService: MyCasesService(options),
     ProjectService: ProjectService(options),
+    SupportService: SupportService(options),
     UserService: UserService(options)
   }
 }
