@@ -4,11 +4,12 @@
 # p360
 
 Node wrapper for Public 360 SIF RPC Web Service from [Tieto](https://www.tieto.no/).
+Updated version of @vtfk/p360.
 
 # Installation
 
 ```bash
-$ npm install @vtfk/p360 --save
+$ npm install @serussi/p360 --save
 ```
 
 ## SIF documentation
