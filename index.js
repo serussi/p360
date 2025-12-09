@@ -11,6 +11,9 @@ const RevisionService = require("./lib/revision-service");
 const SupportService = require("./lib/support-service");
 const UserService = require("./lib/user-service");
 
+const KGVService = require("./lib/kgv-service");
+const ContikiService = require("./lib/contiki-service");
+
 module.exports = (options) => {
   if (!options) throw TypeError("Missing required input: options");
   if (!options.host) throw TypeError("Missing required input: options.host");
@@ -30,5 +33,7 @@ module.exports = (options) => {
     RevisionService: RevisionService(options),
     SupportService: SupportService(options),
     UserService: UserService(options),
+    KGVService: KGVService(options),
+    ContikiService: ContikiService(options),
   };
 };
