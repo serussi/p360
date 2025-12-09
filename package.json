@@ -1,6 +1,6 @@
 {
   "name": "@serussi/p360",
-  "version": "1.5.1",
+  "version": "1.6.7",
   "description": "Wrapper for Public 360 SIF RPC Web Service from Tieto",
   "main": "index.js",
   "publishConfig": {
@@ -39,7 +39,7 @@
       "name": "Ashe Ssebulime",
       "email": "ashse@trondelagfylke.no",
       "url": "https://github.com/serussi"
-    } 
+    }
   ],
   "license": "MIT",
   "bugs": {
