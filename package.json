@@ -21,7 +21,8 @@
   "keywords": [
     "vtfk",
     "Vestfold og Telemark",
-    "Public360"
+    "Public360",
+    "trfk"
   ],
   "author": {
     "name": "Mats Andreassen",
@@ -33,7 +34,12 @@
       "name": "Rune Moskvil Lyngås",
       "email": "rune.moskvil.lyngaas@vtfk.no",
       "url": "https://github.com/runely"
-    }
+    },
+    {
+      "name": "Ashe Ssebulime",
+      "email": "ashse@trondelagfylke.no",
+      "url": "https://github.com/serussi"
+    } 
   ],
   "license": "MIT",
   "bugs": {
